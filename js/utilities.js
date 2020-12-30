@@ -30,7 +30,7 @@ var onlyDoes = [
   "Reliable.",
   "Carbon Filtrationists.",
   "Clean Air.",
-  "FilterHub."
+  "FilterStore."
 
 ]
 cycleOnlyDoes(0);
