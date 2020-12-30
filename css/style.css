@@ -25,8 +25,8 @@ body {
 }
 
 .landingHero{
-  max-height: 850px;
-  min-height: 850px;
+  max-height: 750px;
+  min-height: 750px;
 }
 
 ul {
@@ -83,8 +83,8 @@ pre {
 }
 
 .blankspace{
-  min-height:200px;
-  max-height:200px;
+  min-height:120px;
+  max-height:120px;
 }
 
 .navbar ul {
