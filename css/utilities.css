@@ -73,6 +73,14 @@
   margin-left: 20%;
 }
 
+.btn-shopnow{
+  margin-left: 17%;
+  transform: scale(2);
+}
+
+.btn-shopnow:hover{
+  transform: scale(1.98);
+}
 
 /* Text colors */
 .text-primary {
