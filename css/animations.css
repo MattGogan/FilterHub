@@ -1,0 +1,112 @@
+.fade-in-fast{
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+
+  .fade-out-very-fast{
+    animation: fadeOut ease 1s;
+    -webkit-animation: fadeOut ease 1s;
+    -moz-animation: fadeOut ease 1s;
+    -o-animation: fadeOut ease 1s;
+    -ms-animation: fadeOut ease 1s;
+  }
+
+  .fade-in-doubletime{
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+
+  .fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @keyframes fadeOut {
+    100% {opacity:0;}
+    0% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeOut {
+    100% {opacity:0;}
+    0% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeOut {
+    100% {opacity:0;}
+    0% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeOut {
+    100% {opacity:0;}
+    0% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeOut {
+    100% {opacity:0;}
+    0% {opacity:1;}
+  }
+
+
+
+/*LOAD FROM BOTTOM DOESNT WORK*/
+
+.loadFromBottom{
+  animation-name: bottomToTop;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: bottomToTop;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+
+}
+
+  @keyframes bottomToTop {
+    0% {
+        height: 0%;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@-webkit-keyframes bottomToTop {
+  0% {
+      height: 0%;
+  }
+  100% {
+      height: 100%;
+  }
+}
